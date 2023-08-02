@@ -266,6 +266,17 @@ document.forms[0].onsubmit = (e)=>{
    });
 };
 
+//delete local storage items
+submitBtn.addEventListener("click",()=>{
+    
+    window.localStorage.removeItem("order-list");
+    window.localStorage.removeItem("order-product");
+    window.localStorage.removeItem("products-number");
+
+});
+
+
+
 // create paragraph of warning function
 function createParagraph(text,element){
     let p = document.createElement("p");

@@ -54,6 +54,9 @@
   height: 2px;
   background-color: #e9e7e7;
 }
+.order-path .second-content span{
+  max-width: 75px;
+}
 
 .stop{
   pointer-events: none !important;
