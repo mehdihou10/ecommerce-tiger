@@ -98,8 +98,8 @@ copyrightLinks.forEach(link => link.target = "_Blank");
 /*---------------------end footer----------------------*/
 
 //go to order_complete page after finishing order
-if(window.localStorage.getItem("order-complete")){
-    // window.location.href = "order_complete.html";
-    location.replace("order_complete.html");
-    window.localStorage.removeItem("order-complete");
-}
+// if(window.localStorage.getItem("order-complete")){
+//     // window.location.href = "order_complete.html";
+//     location.replace("order_complete.html");
+//     window.localStorage.removeItem("order-complete");
+// }
