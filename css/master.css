@@ -108,9 +108,9 @@
 
   /* start header  */
 
-  /* header{
+  header{
     background-color: red;
-  } */
+  }
   header .container .logo{
     font-size: 20px;
   }
